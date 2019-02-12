@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AuxiliarBeta.jnlp">
+  <information>
+    <title>AuxiliarBeta</title>
+    <vendor>Lenovo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AuxiliarBeta.jar" size="3421973" download="eager" />
+    <jar href="lib\MapsJava.jar" size="58328" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2390900" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AuxiliarBeta" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="auxiliarbeta.AuxiliarBeta"  name="AuxiliarBeta" />
+  <update check="always"/>
+</jnlp>
