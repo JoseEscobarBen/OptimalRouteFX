@@ -11,7 +11,6 @@ import org.w3c.dom.Document;
 
 /**
  * El límite de mapas estáticos es de 25.000 solicitudes gratuitas diarias
- * @author Luis Marcos
  */
 public class StaticMaps extends MapsJava {
     private final String URLRoot="http://maps.googleapis.com/maps/api/staticmap";
